@@ -1,4 +1,4 @@
-class Shop{
+class Store{
     // CURRENT ORDER IS A CART 
     constructor(productList){
         this.productList = productList;
