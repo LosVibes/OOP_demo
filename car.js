@@ -1,0 +1,25 @@
+class Car{ // TEMPLATE /RECIPE FOR AN OBJECT IS CALLED A CLASS - COOKIE CUTTER
+
+    constructor(){
+        // PROPERTIES - VARIABLES INSIDE THE OBJECT
+        this.speed = 10;
+        this.position = 10;
+    }
+
+    //METHODS - FUNCTIONS INSIDE OF THE OBJECTS
+    iterate(){
+        this.position += this.speed; // DETAILS
+    }
+}
+// TEST
+// let c1 = new Car(); // CREATE AN ISTANCE - COOKIE / GINGERBREAD MAN
+ 
+// console.log(c1.postion)
+
+// c1.iterate()
+// c1.iterate()
+// c1.iterate()
+// c1.iterate()
+
+// console.log(c1.postion) // 50?
+
